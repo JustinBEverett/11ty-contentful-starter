@@ -21,7 +21,8 @@ function imageProcessing(photo) {
 }
 
 module.exports = function(eleventyConfig) {
-
+    pathPrefix: "/11ty-contentful-starter/"
+    
     eleventyConfig.addPassthroughCopy('assets');
     eleventyConfig.addPassthroughCopy('images');
 
